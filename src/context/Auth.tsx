@@ -24,6 +24,8 @@ const contextInitials = {
 }
 
 
+/* comment */
+
 const AuthContext = createContext<TContext>(contextInitials)
 
 export const useAuthContext = () => useContext(AuthContext)
